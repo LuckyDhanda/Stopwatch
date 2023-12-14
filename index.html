@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>STOPWATCH</title>
+		<link rel="stylesheet" href="stopwatch.css" />
+	</head>
+	<body>
+		<div class="stopwatch-container">
+			<div class="stopwatch-circle">
+				<div class="time">
+					<span class="hours">00</span>:<span class="minutes">00</span
+					>:<span class="seconds">00</span>
+				</div>
+			</div>
+			<div class="buttons">
+				<button class="start button">START</button>
+				<button class="stop button">STOP</button>
+				<button class="reset button">RESET</button>
+			</div>
+
+			<!-- Will be shown to user when 23w hours has been passed -->
+			<p class="day-complete hidden">
+				Day has been completed. Please reset the stopwatch
+			</p>
+		</div>
+
+		<script src="stopwatch.js"></script>
+	</body>
+</html>
